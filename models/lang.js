@@ -1,0 +1,23 @@
+
+module.exports = (sequelize, DataTypes) => {
+    const Lang = sequelize.define('lang', {
+        id: {
+            type: DataTypes.INTEGER,
+            primaryKey: true,
+            autoIncrement: true
+        },
+        name: {
+            type: DataTypes.STRING,
+            allowNull: false
+        },
+    });
+
+    Lang.associate = (models) => {
+        Lang.hasMany(models.event, {
+            foreignKey: 'lang_id',
+            as: 'event'
+        });
+    };
+
+    return Lang;
+}
