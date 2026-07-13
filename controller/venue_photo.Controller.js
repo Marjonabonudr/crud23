@@ -1,5 +1,5 @@
 const {op} = require('sequelize');
-const { validateVenuePhoto } = require('../validation/Venue_photoValidation');
+const { validateVenuePhoto } = require('../validation/venue_photoValidation');
 const { Venue_photo, Venue } = require('../models');
 
 

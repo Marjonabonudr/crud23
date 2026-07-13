@@ -1,5 +1,5 @@
 const {op} = require('sequelize');
-const { validatePaymentMethod } = require('../validation/Payment_methodValidation');
+const { validatePaymentMethod } = require('../validation/payment_methodValidation');
 const { Payment_method, } = require('../models');
 
 

@@ -1,5 +1,5 @@
 const { Op } = require('sequelize');
-const { validateSeatType } = require('../validation/Seat_typeValidation');
+const { validateSeatType } = require('../validation/seat_typeValidation');
 const { district, region, venue, Seat_type, seat } = require('../models');
 
 

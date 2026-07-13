@@ -1,5 +1,5 @@
 const {op} = require('sequelize');
-const { validateTicketStatus } = require('../validation/Ticket_statusValidation');
+const { validateTicketStatus } = require('../validation/ticket_statusValidation');
 const { Ticket_status, ticket } = require('../models');
 
 

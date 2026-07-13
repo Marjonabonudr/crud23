@@ -1,5 +1,5 @@
 const {op} = require('sequelize');
-const { validateHumanCategory } = require('../validation/Human_categoryValidation');
+const { validateHumanCategory } = require('../validation/human_categoryValidation');
 const { Human_category, event } = require('../models');
 
 

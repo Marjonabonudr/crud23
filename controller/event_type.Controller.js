@@ -1,5 +1,5 @@
 const {op} = require('sequelize');
-const { validateEventType } = require('../validation/Event_typeValidation');
+const { validateEventType } = require('../validation/event_typeValidation');
 const { Event_type, event,  } = require('../models');
 
 

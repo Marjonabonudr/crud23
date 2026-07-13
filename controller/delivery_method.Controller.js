@@ -1,5 +1,5 @@
 const {op} = require('sequelize');
-const { validateDeliveryMethod } = require('../validation/Delivery_methodValidation');
+const { validateDeliveryMethod } = require('../validation/delivery_methodValidation');
 const { Delivery_method, booking } = require('../models');
 
 
